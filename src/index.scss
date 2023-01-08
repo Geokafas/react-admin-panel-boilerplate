@@ -1,0 +1,20 @@
+.home-wrapper{
+    display: flex;
+}
+
+.searchcard:hover{
+    cursor: pointer;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.taglikehover:hover{
+    text-decoration: underline;
+    color: #2C7A7B;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px){
+    .vertical-cards{
+        place-self: center;
+    }
+}
